@@ -1,0 +1,11 @@
+[color]
+	ui = auto
+[user]
+	name = Brett Wiseman
+	email = bwisema3@nd.edu
+[alias]
+        graph = log --graph --decorate --abbrev-commit --pretty=oneline
+        grapha = log --graph --decorate --abbrev-commit --pretty=oneline --all
+
+[push]
+	default = simple

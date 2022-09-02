@@ -1,4 +1,3 @@
 # vim_files
 
-Download vim_setup.sh
-Run `:PlugInstall` in vimrc
+Download vim_setup.sh in ~

@@ -24,3 +24,6 @@ git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/bundle
 
 # get git config
 curl -LO https://raw.githubusercontent.com/bwiseman77/vim_files/master/.gitconfig
+
+# nerd tree
+git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree

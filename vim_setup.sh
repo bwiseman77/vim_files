@@ -21,3 +21,6 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle
 
 # get supertab
 git clone --depth=1 https://github.com/ervandew/supertab.git ~/.vim/bundle
+
+# get git config
+curl -LO https://raw.githubusercontent.com/bwiseman77/vim_files/master/.gitconfig

@@ -8,10 +8,10 @@ mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged ~/.vi
 curl -LO https://raw.githubusercontent.com/bwiseman77/vim_files/master/.vimrc
 
 # download vimplugin
-curl -fLo ~/.vim/autoload/ --create-dirs git clone https://github.com/tpope/vim-pathogen.git
+curl -fLo ~/.vim/autoload/vim-pathogen.git --create-dirs git clone https://github.com/tpope/vim-pathogen.git
 
 # downlaod colors
-curl -Lo ~/.vim/colors/ https://raw.githubusercontent.com/Mcmartelle/vim-monokai-bold/master/colors/monokai-bold.vim
+curl -Lo ~/.vim/colors/monokai-bold.vim https://raw.githubusercontent.com/Mcmartelle/vim-monokai-bold/master/colors/monokai-bold.vim
 
 # get airline
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle
